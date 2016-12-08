@@ -1,7 +1,15 @@
+seekjs.config({
+    alias: {
+        service: "/utils/service.js"
+    },
+    ns: {
+        util: "/utils/"
+    }
+});
 
-var app = req("sys.app");
+var app = require("sys.app");
 
-app.viewEx = req("util.viewEx");
+app.viewEx = require("util.viewEx");
 
 app.config({
 	js: "/js/",

@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/likaituan/word#readme",
   "dependencies": {
-    "seekjs": "latest"
+    "seekjs": "latest",
+    "seekjs-plugin-dialog": "latest",
+    "seekjs-plugin-mask": "latest"
   }
 }
